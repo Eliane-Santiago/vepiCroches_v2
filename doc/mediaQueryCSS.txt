@@ -1,0 +1,29 @@
+>>> Media Query em CSS 
+
+@media screen and (max-width: 900px) 
+{
+
+	.column{
+		width: 50%;
+	}
+
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+	.column{
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 200px) 
+{
+
+	.column{
+		width: 100%;
+	}
+
+}

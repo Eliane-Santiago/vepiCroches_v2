@@ -1,0 +1,11 @@
+>>> Media Query em CSS Externo (Em cada Breackpoint usaremos uma página específica)
+
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="nomeArquivo1.css"> // a partir de
+
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="nomeArquivo2.css"> // até
+
+
+
+<link rel="stylesheet" media="screen and (max-width: 412px)" href="index-pequeno.css"> 
+<link rel="stylesheet" media="screen and (max-width: 800px)" href="index-medio.css"> 
+<link rel="stylesheet" media="screen and (min-width: 801px)" href="index-medio.css"> 
